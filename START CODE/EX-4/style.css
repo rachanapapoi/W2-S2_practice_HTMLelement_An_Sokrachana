@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(50, 35, 98);
+}
+.profile{
+    width: 300px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: beige;
+    margin-left: 200px;
+}
+.profile img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.profile h2 {
+    font-size: 24px;
+    color: #13349e;
+    margin-bottom: 5px;
+}
+.job {
+    color: #4c9c6a;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.stats {
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border-top: 1px solid #760e0e;
+    border-bottom: 1px solid #941717;
+}
+.pro_card {
+    text-align: center;
+}
+
+.stats div {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    vertical-align: top;
+}
+
+.bio {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.social_icon {
+    display: flex;
+    justify-content: center; /* Centers icons horizontally */
+    gap: 15px;               /* Adds equal spacing between icons */
+    margin: 20px 0px;        /* Removes the side margins that cause line wrapping */
+    margin-right: 5px;        
+}
+button {
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 90px;
+    cursor: pointer;
+    border-color: rgb(175, 175, 175);
+}
+button:hover {
+    background-color: #969595;
+    color: white;
+}
