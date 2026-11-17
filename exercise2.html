@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+
+        body{
+            margin: 0;
+        }
+
+        .navigation{
+            display: flex;
+            width: 100%;
+            background-color: rgb(43, 42, 42);
+            height: 80px;
+            width: 100%;
+            color:white;
+            justify-content: space-between;
+            align-items: center;
+            gap: 90px;
+        }
+        .logo{
+            padding: 10px;
+            font-size: 30px;
+        }
+
+        .manu{
+            display: flex;
+            gap: 10px;
+            margin: 0; 
+        }
+
+        .title{
+            padding: 20px;
+        }
+
+        .my-icon{
+            display: none;
+        }
+
+        @media (max-width: 768px){
+            .title{
+                display: none;
+            }
+
+            .my-icon{
+                display: block;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="logo">Logo</div>
+        <div class="manu">
+            <p class="title">Home</p>
+            <p class="title">About</p>
+            <p class="title">Service</p>
+            <P class="title">Cantact</P>
+            <i class="fa-solid fa-bars my-icon"></i>
+        </div>
+
+    </div>
+</body>
+</html>
